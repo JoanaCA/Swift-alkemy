@@ -1,0 +1,165 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2638
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica-Bold;\f1\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red255\green255\blue255;\red31\green36\blue45;
+}
+{\*\expandedcolortbl;;\cssrgb\c0\c1\c1;\cssrgb\c100000\c100000\c100000;\cssrgb\c16355\c19135\c23327;
+}
+\paperw11900\paperh16840\margl1440\margr1440\vieww17920\viewh13620\viewkind0
+\deftab720
+\pard\pardeftab720\sa200\partightenfactor0
+
+\f0\b\fs30 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\
+\
+typealias Direccion = (ciudad: String, partido: String, provincia: String, calle: [String:Any], pais: String, codigoPostal: Int, piso: Int?, departamento: String?)\
+
+\f1\b0 \cf2 \uc0\u8232 
+\f0\b \cf2 let direccionPersona: Direccion = (
+\f1\b0 \cf2 \uc0\u8232 
+\f0\b \cf2 \'a0 \'a0ciudad: \'93Ballester,
+\f1\b0 \cf2 \uc0\u8232 
+\f0\b \cf2 \'a0 \'a0partido: \'93San \'93Martin,
+\f1\b0 \cf2 \uc0\u8232 
+\f0\b \cf2 \'a0 \'a0provincia: "Buenos Aires",
+\f1\b0 \cf2 \uc0\u8232 
+\f0\b \cf2 \'a0 \'a0calle: ["nombreDeCalle": \'93Alvear\'94,
+\f1\b0 \cf2 \uc0\u8232 
+\f0\b \cf2 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0"numero": 1616,
+\f1\b0 \cf2 \uc0\u8232 
+\f0\b \cf2 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0"entreCalle1": \'93Siempre viva\'94,
+\f1\b0 \cf2 \uc0\u8232 
+\f0\b \cf2 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0"entreCalle2": \'93Calle falsa\'94
+\f1\b0 \cf2 \uc0\u8232 
+\f0\b \cf2 \'a0 \'a0],
+\f1\b0 \cf2 \uc0\u8232 
+\f0\b \cf2 \'a0 \'a0pais: "Argentina",
+\f1\b0 \cf2 \uc0\u8232 
+\f0\b \cf2 \'a0 \'a0codigoPostal: 1378,
+\f1\b0 \cf2 \uc0\u8232 
+\f0\b \cf2 \'a0 \'a0piso: nil,
+\f1\b0 \cf2 \uc0\u8232 
+\f0\b \cf2 \'a0 \'a0departamento: nil
+\f1\b0 \cf2 \uc0\u8232 
+\f0\b \cf2 )
+\f1\b0 \cf2 \
+
+\f0\b \cf2 let direccionPersona2: Direccion = (
+\f1\b0 \cf2 \uc0\u8232 
+\f0\b \cf2 \'a0 \'a0ciudad: \'93Malaver\'94,
+\f1\b0 \cf2 \uc0\u8232 
+\f0\b \cf2 \'a0 \'a0partido: \'93San Martin\'94,
+\f1\b0 \cf2 \uc0\u8232 
+\f0\b \cf2 \'a0 \'a0provincia: "Buenos Aires",
+\f1\b0 \cf2 \uc0\u8232 
+\f0\b \cf2 \'a0 \'a0calle: ["nombreDeCalle": \'93Rivadavia\'94,
+\f1\b0 \cf2 \uc0\u8232 
+\f0\b \cf2 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0"numero": 2034,
+\f1\b0 \cf2 \uc0\u8232 
+\f0\b \cf2 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0"entreCalle1": \'93Bolivar\'94,
+\f1\b0 \cf2 \uc0\u8232 
+\f0\b \cf2 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0"entreCalle2": \'93Independencia\'94
+\f1\b0 \cf2 \uc0\u8232 
+\f0\b \cf2 \'a0 \'a0],
+\f1\b0 \cf2 \uc0\u8232 
+\f0\b \cf2 \'a0 \'a0pais: "Argentina",
+\f1\b0 \cf2 \uc0\u8232 
+\f0\b \cf2 \'a0 \'a0codigoPostal: 3468,
+\f1\b0 \cf2 \uc0\u8232 
+\f0\b \cf2 \'a0 \'a0piso: nil,
+\f1\b0 \cf2 \uc0\u8232 
+\f0\b \cf2 \'a0 \'a0departamento: nil
+\f1\b0 \cf2 \uc0\u8232 
+\f0\b \cf2 )
+\f1\b0 \cf2 \
+
+\f0\b \cf2 let direccionPersona3: Direccion = (
+\f1\b0 \cf2 \uc0\u8232 
+\f0\b \cf2 \'a0 \'a0ciudad: \'93La Lucila\'94,
+\f1\b0 \cf2 \uc0\u8232 
+\f0\b \cf2 \'a0 \'a0partido: \'93Vicente Lopez\'94,
+\f1\b0 \cf2 \uc0\u8232 
+\f0\b \cf2 \'a0 \'a0provincia: "Buenos Aires",
+\f1\b0 \cf2 \uc0\u8232 
+\f0\b \cf2 \'a0 \'a0calle: ["nombreDeCalle": \'93Varese\'94,
+\f1\b0 \cf2 \uc0\u8232 
+\f0\b \cf2 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0"numero": 1267,
+\f1\b0 \cf2 \uc0\u8232 
+\f0\b \cf2 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0"entreCalle1": \'93Coghlan\'94,
+\f1\b0 \cf2 \uc0\u8232 
+\f0\b \cf2 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0"entreCalle2": \'93Gonzalez\'94
+\f1\b0 \cf2 \uc0\u8232 
+\f0\b \cf2 \'a0 \'a0],
+\f1\b0 \cf2 \uc0\u8232 
+\f0\b \cf2 \'a0 \'a0pais: "Argentina",
+\f1\b0 \cf2 \uc0\u8232 
+\f0\b \cf2 \'a0 \'a0codigoPostal: 2876,
+\f1\b0 \cf2 \uc0\u8232 
+\f0\b \cf2 \'a0 \'a0piso: 6,
+\f1\b0 \cf2 \uc0\u8232 
+\f0\b \cf2 \'a0 \'a0departamento: "A"
+\f1\b0 \cf2 \uc0\u8232 
+\f0\b \cf2 )
+\f1\b0 \cf2 \uc0\u8232 
+\f0\b \cf2 let direccionPersona4: Direccion = (
+\f1\b0 \cf2 \uc0\u8232 
+\f0\b \cf2 \'a0 \'a0ciudad: \'93La Lucila\'94,
+\f1\b0 \cf2 \uc0\u8232 
+\f0\b \cf2 \'a0 \'a0partido: \'93Vicente Lopez\'94,
+\f1\b0 \cf2 \uc0\u8232 
+\f0\b \cf2 \'a0 \'a0provincia: "Buenos Aires",
+\f1\b0 \cf2 \uc0\u8232 
+\f0\b \cf2 \'a0 \'a0calle: ["nombreDeCalle": \'93Varese\'94,
+\f1\b0 \cf2 \uc0\u8232 
+\f0\b \cf2 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0"numero": 1267,
+\f1\b0 \cf2 \uc0\u8232 
+\f0\b \cf2 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0"entreCalle1": \'93Coghlan\'94,
+\f1\b0 \cf2 \uc0\u8232 
+\f0\b \cf2 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0"entreCalle2": \'93Gonzalez\'94
+\f1\b0 \cf2 \uc0\u8232 
+\f0\b \cf2 \'a0 \'a0],
+\f1\b0 \cf2 \uc0\u8232 
+\f0\b \cf2 \'a0 \'a0pais: "Argentina",
+\f1\b0 \cf2 \uc0\u8232 
+\f0\b \cf2 \'a0 \'a0codigoPostal: 2876,
+\f1\b0 \cf2 \uc0\u8232 
+\f0\b \cf2 \'a0 \'a0piso: 4,
+\f1\b0 \cf2 \uc0\u8232 
+\f0\b \cf2 \'a0 \'a0departamento: "B"
+\f1\b0 \cf2 \uc0\u8232 
+\f0\b \cf2 )\
+PUNTO 3
+\f1\b0 \cf2 \
+
+\f0\b \cf2 func direccionFormateada (direccion: Direccion) -> String \{
+\f1\b0 \cf2 \uc0\u8232 
+\f0\b \cf2 \'a0 \'a0let todaLaDireccion = "\\(direccion)"
+\f1\b0 \cf2 \uc0\u8232 
+\f0\b \cf2 \'a0 \'a0return todaLaDireccion
+\f1\b0 \cf2 \uc0\u8232 
+\f0\b \cf2 \}
+\f1\b0 \cf2 \
+
+\f0\b \cf2 print(direccionFormateada(direccion: direccionPersona))\
+
+\f1\b0 \cf2 \
+
+\f0\b \cf2 func pisoDepartamento (de direccion: Direccion) -> String \{
+\f1\b0 \cf2 \uc0\u8232 
+\f0\b \cf2 \'a0 \'a0if let pisoValido = direccion.piso, let deptoValido = direccion.departamento \{
+\f1\b0 \cf2 \uc0\u8232 
+\f0\b \cf2 \'a0 \'a0 \'a0 \'a0return "El piso es \\(pisoValido) y el departamento es \\(deptoValido)"
+\f1\b0 \cf2 \uc0\u8232 
+\f0\b \cf2 \'a0 \'a0\}
+\f1\b0 \cf2 \uc0\u8232 
+\f0\b \cf2 \'a0 \'a0else \{
+\f1\b0 \cf2 \uc0\u8232 
+\f0\b \cf2 \'a0 \'a0 \'a0 \'a0return "Esta direccion no pertenece a un departamento"
+\f1\b0 \cf2 \uc0\u8232 
+\f0\b \cf2 \'a0 \'a0\}
+\f1\b0 \cf2 \uc0\u8232 
+\f0\b \cf2 \}
+\f1\b0 \cf2 \
+
+\f0\b \cf2 print (pisoDepartamento(de: direccionPersona2))
+\f1\b0 \cf2 \uc0\u8232 
+\f0\b \cf2 print (pisoDepartamento(de: direccionPersona3))}
